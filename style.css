@@ -40,3 +40,17 @@ p, li { font-size: 1rem; }
 
 /* Small polish */
 .card img { object-fit: cover; height: 180px; }
+
+.modal-full-img {
+  max-height: 85vh;
+  object-fit: contain;
+  background: #000;
+}
+
+iframe { background: #fff; }
+
+.embed-frame { width: 100%; height: 85vh; }
+.embed-hint { display: none; }
+@media (max-width: 768px) {
+  .embed-frame { height: 60vh; }
+}
